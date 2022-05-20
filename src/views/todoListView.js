@@ -5,7 +5,8 @@ export const todoListViewFunc = () => {
   element.innerHTML = String.raw`
         <div>
             <h1>My List Book </h1>
-            <p>hello clement</p>
-        </div>    
+            <p>Hello World</p>
+        </div>   
    `;
+  return element;
 };

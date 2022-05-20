@@ -5,5 +5,8 @@ import { CONTAINER_ID } from '../constants.js';
 
 export const todoListPageFunc = () => {
   const container = document.getElementById(CONTAINER_ID);
-  container.innerHTML = 'hello Todo';
+  container.innerHTML = '';
+
+  const element =  todoListViewFunc();
+  container.appendChild(element);
 };
