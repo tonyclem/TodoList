@@ -1,9 +1,9 @@
 'use strict';
 
-import { initWelcomePage } from './page/welcomePage.js';
+import { initWelcomeElement } from './views/welcomeViews.js';
 
 const loadApp = () => {
-  initWelcomePage();
+  initWelcomeElement();
 };
 
-window.addEventListener('load', loadApp);
+window.onload = loadApp;
