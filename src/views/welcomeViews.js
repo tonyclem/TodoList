@@ -7,7 +7,7 @@ export const createWelcomeElement = () => {
   element.innerHTML = String.raw`
 
     <div class="text">
-        <h1>Welcome to Schuld List</h1>
+        <h1>Welcome to Schedule List</h1>
         <h2>shopping List</h2>
         <button id="${BUTTON_ID}" class="btn">let go</button>
     </div>
