@@ -2,15 +2,15 @@
 
 import { BUTTON_ID } from '../constants.js';
 
-export const createWelcomeElement = () => {
+export const initWelcomeElement = () => {
   const element = document.createElement('div');
   element.innerHTML = String.raw`
+        <div class="welcome-container">
+            <h1>Welcome to the To-Do List App!</h1>
+            <p>Track Note</p>
+        </div>
 
-    <div class="text">
-        <h1>Welcome to Schedule List</h1>
-        <h2>shopping List</h2>
-        <button id="${BUTTON_ID}" class="btn">let go</button>
-    </div>
-`;
+        <button id="${BUTTON_ID}">Start</button>
+        `;
   return element;
 };
