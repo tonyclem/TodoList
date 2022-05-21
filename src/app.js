@@ -1,6 +1,6 @@
 'use strict';
 
-import { initWelcomeElement } from './views/welcomeViews.js';
+import { initWelcomeElement } from './pages/welcomePages.js';
 
 const loadApp = () => {
   initWelcomeElement();
